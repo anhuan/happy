@@ -1,0 +1,128 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    overflow: hidden;
+}
+/*--SWIPER--*/
+.swiper-container {
+
+    height: 100%;
+}
+
+.swiper-slide {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.pageFir, .pageTwo, .pageThr, .pageFou, .pageFiv, .pageSix {
+    background:url(../img/bgs.png);
+    background-size: 100%;
+}
+
+.swiper-pagination {
+  
+  }
+   p{
+    font-size: 2.4rem;
+    font-family: fantasy;
+    color: currentColor;
+    line-height: 4rem;
+  }
+  .pageFir .p1{
+    text-align: center;
+    margin:15% auto;
+   
+  }
+  .pageFir .p1 span{
+      color:red;
+      font-size: 3rem;
+  }
+  .pageFir .p2,  .pageFir .p3,  .pageFir .p4,  .pageFir .p5,  .pageFir .p6{
+    color: currentColor;
+    line-height: 7rem;
+    text-align: center;
+    font-family: cursive;
+    font-size: 3rem;
+    margin-top: -1rem;
+  }
+  .pageFir img,.pageTwo .img2,.pageThr .img2{
+      width:20rem;
+      height:20rem;
+      position: absolute;
+      bottom:0rem;
+      right:0;
+  }
+  .pageTwo .img2,.pageThr .img2{
+    width:13rem;
+    height:13rem;
+}
+  .pageFir .img3, .pageTwo .img3,.pageThr .img3{
+    width:10rem;
+    height:10rem;
+    position: absolute;
+    top:0rem;
+    left:0;
+}
+  .pageTwo p{
+      position: absolute;
+     line-height: 5rem;
+  }
+  .pageTwo .p1{
+      top:10%;
+      left:20%;
+  }
+  .pageTwo .p2{
+    left:30%;
+    top:15%;
+  }
+  .pageTwo .img1{
+    position: absolute;
+    width: 20rem;
+    height: 26rem;
+    top: 23%;
+    left: 50%;
+    margin-left: -10rem;
+  }
+  .pageTwo .p3{
+    left:40%;
+    bottom:30%;
+  }
+  .pageTwo .p5{
+    left: 10%;
+    bottom: 22%;
+    font-size: 2rem;
+  }
+  .pageThr .p1{
+    text-align: center;
+    margin: 16% 0 10% 0;
+
+  }
+  .pageThr div{
+    position: relative;
+    width: 100%;
+    height: 60%;
+  }
+  .pageThr div img{
+      /* position: absolute; */
+      width:50%;
+      height:50%;
+      float: left;
+
+  }
+  .pageThr .we5{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left:-15%;
+    margin-top: -15%;
+    border-radius: 50%;
+    width:30%;
+    height:30%;
+    z-index: 1;
+  }
+  .pageFou img{
+    width:100%;
+    height:100%;
+  }
