@@ -6,7 +6,7 @@ $('#login-button').click(function (event) {
 		$('form').fadeOut(500);
 		$('.login').addClass('form-success');
 		//requestFullScreen();
-		setTimeout(function(){location.href="index.html";},2000);
+		setTimeout(function(){location.href="html/index.html";},2000);
 		//auto_link_html("index1.html");
 	}
 	else{

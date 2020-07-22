@@ -33,7 +33,7 @@ var S = {
       S.Shape.render();
       //console.log(m);
       if(m==700){
-        window.location.href="../小高/BirthdayCake.html";
+        window.location.href="../xiaogao/html/BirthdayCake.html";
       }
     });
 
