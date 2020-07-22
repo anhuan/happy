@@ -33,7 +33,7 @@ var S = {
       S.Shape.render();
       //console.log(m);
       if(m==700){
-        window.location.href="../happy/html/BirthdayCake.html";
+        window.location.href="../html/BirthdayCake.html";
       }
     });
 
